@@ -1,0 +1,92 @@
+.todo-item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: lightgrey;
+    margin-top: 2px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    color: darkblue;
+}
+
+.todo-item-container:hover{
+    background-color: turquoise;
+}
+.edit-or-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.normal{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.delete{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cancel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.save{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.save:hover{
+    cursor: pointer;
+}
+
+.cancel:hover{
+    cursor: pointer;
+}
+
+.delete:hover{
+    cursor: pointer;
+}
+
+.normal:hover{
+    cursor: pointer;
+}
+
+.save, .cancel, .delete, .normal :hover{
+    transition: font-size 1s ease-in;
+}

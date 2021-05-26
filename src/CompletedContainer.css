@@ -1,0 +1,16 @@
+.completed-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border-style: solid;
+    border-width: 2px; 
+    color: lightblue;
+    max-height: 400px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+
+.completed-container h3{
+    color: darkblue;
+}
